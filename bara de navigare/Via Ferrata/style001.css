@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    display: flex;
+    height: 75px;
+    width: 100%;
+}
+.header-left-side{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+.header-right-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+.header-left-side h1 {
+   font-size: 20px;
+   font-family: 'Rubik', 'Montserrat', sans-serif;
+    
+}
+.header-strip{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    background: linear-gradient(90deg, rgb(58, 157, 182) 0%, rgb(159, 214, 236) 35%, rgba(66, 186, 241, 0.979) 100%);
+}
+.content {
+    display:flex;
+    /* height: 89%; */
+    width: 80% ;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.center {
+    /* height: 30%; */
+    /* width: 80%; */
+}
+.up img {
+    /* border-radius: 30px; */
+    width: 100%;
+    height: 2%;
+    opacity: 0.7;
+}
+.up {
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+     border-bottom: 1px solid black;
+     background: url('./assets/background\ climbing.jpg');
+     background-size: 100%;
+     background-repeat: no-repeat;
+}
+.up h1 {
+    font-size: 25px;
+    font-family: 'Rubik', 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px rgba(147, 147, 148, 0.664);
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    text-transform: none;
+}
+.middle {
+    display: block;
+    height: 70%;
+    /* width: 80%; */
+
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.middle h2 {
+    font-size:20px;
+    font-family: 'Rubik', 'Montserrat', sans-serif;
+    color: #228c9a;
+    text-shadow: 5px 5px 5px rgba(147, 147, 148, 0.664);
+    margin: 10px 0 10px 40px;
+}
+.middle p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    
+}
+.info-location .route-name .route-via-ferrata {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.route-name h2 {
+    font-size:20px;
+    font-family: 'Rubik', 'Montserrat', sans-serif;
+    color: #228c9a;
+    text-shadow: 5px 5px 5px rgba(147, 147, 148, 0.664);
+    margin-right: 10px;
+}
+.route-name img {
+   margin-right: 20px;
+   justify-content: center;
+}
+table {
+    border: 1px ridge rgb(129, 154, 161);
+    width: 80%;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.table {
+    display: flex;
+    border-collapse: collapse;
+    justify-content: center;
+    margin: 10px;
+}
+.table td, .table th {
+    padding: 20px 7px;
+    text-align: center;
+    font-size: 16px;
+}
+.table th {
+    background: linear-gradient(90deg, rgb(206, 224, 241) 0%, rgb(141, 143, 145) 35%, rgba(141, 205, 235, 0.979) 100%);
+    text-shadow: 2px 2px rgba(134, 189, 223, 0.795); 
+}
+.header-table th {
+    font-size:18px ;
+    border-bottom: 1px solid rgba(147, 147, 148, 0.664);;
+}
+.traseul1 {
+    border-bottom:  5px solid rgb(236, 152, 152);
+   
+}
+.traseul2 {
+    border-bottom:  5px solid rgb(238, 238, 176);
+}
+.traseul3 {
+    border-bottom:  5px solid rgba(231, 169, 240, 0.61);
+}
+.traseul4 {
+    border-bottom:  5px solid rgb(190, 240, 162);
+}
+.traseul5 {
+    border-bottom:  5px solid rgb(165, 197, 245);
+}
+ul {
+    list-style: linear-gradient(90deg, rgb(168, 208, 248) 0%, rgb(141, 143, 145) 35%, rgba(141, 205, 235, 0.979) 100%);
+  } 
+  .equipment ul li {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 50px;
+    margin-top: 10px;
+    justify-content: center;
+  } 
+
+.equipment {
+
+}
+
+.equipment p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.photos {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./assets/background\ climbing.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+.slider {
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide {
+    width: 700% ;
+    height: 500px;
+    display: flex;
+}
+.slide input {
+    display: none;
+}
+.images {
+    width:20% ;
+    transition: 2s;;
+}
+.images img {
+    width: 80%;
+    height: 100%;
+}
+.nav-m{
+    position: absolute;
+    width: 80%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.m-btn{
+    border: 2px solid #228c9a;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
+    background-color:#228c9a; ;
+}
+#radio1:checked ~.first {
+    margin-left: 0;
+}
+#radio2:checked ~.first {
+    margin-left: -20%;
+}
+#radio3:checked ~.first {
+    margin-left: -40%;
+}
+#radio4:checked ~.first {
+    margin-left: -60%;
+}
+.nav-auto {
+    position: absolute;
+    width: 80%;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-auto div {
+    border: 2px solid #228c9a;
+    padding: 5px;
+    transition: 1s;
+    border-radius: 10px;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}

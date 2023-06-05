@@ -48,14 +48,14 @@ table {
 	border-spacing: 0;
 }
 img {
-	max-width: 99%;
+	max-width: 100%;
   	height: auto;
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
 }
 video {
-	max-width: 99%;
+	max-width: 100%;
 	height: auto;
 	display: block;
   	margin-left: auto;
@@ -295,6 +295,7 @@ button {
 	outline: none;
 	border: 1px solid rgb(11, 80, 42);;
 	font-size: 15px;
+	font-family: "helvetica neue";;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -315,4 +316,17 @@ button {
 	justify-content: center;
 
   }
- 
+ .image-container {
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: 
+ }
+ .video-container {
+  	max-width: 100%;
+ 	 height: auto;
+ 	display: flex;
+  	justify-content: center;
+  	align-items: center;
+ }
